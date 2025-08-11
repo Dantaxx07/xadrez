@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xadrez Online - 2 Jogadores</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Xadrez Online - 2 Jogadores</h1>
+            <p>Jogo responsivo para dois jogadores</p>
+        </header>
+        <div class="game-area">
+            <div class="controls">
+                <h2>Controles</h2>
+                <button id="newGameBtn">Novo Jogo</button>
+                <button id="undoBtn">Desfazer</button>
+                <div id="currentPlayerDisplay"></div>
+                <div id="moveHistoryDisplay"></div>
+            </div>
+            <div id="chessboard" class="chessboard"></div>
+            <div class="status">
+                <h2>Status do Jogo</h2>
+                <div id="gameStatusDisplay"></div>
+                <div id="capturedPiecesDisplay"></div>
+            </div>
+        </div>
+        <footer>
+            <p>Desenvolvido com HTML, CSS e JavaScript</p>
+        </footer>
+    </div>
+    <script src="chessLogic.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
